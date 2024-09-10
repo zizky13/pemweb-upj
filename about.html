@@ -1,32 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-    <header class="text-600 body-font">
-      <div
-        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center border-b-4"
-      >
-        <nav
-          class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-blue-400 flex flex-wrap items-center text-base justify-center"
-        >
-          <a href="./dashboard.html" class="mr-5 hover:text-blue-900">Home</a>
-          <a href="./kontak.html" class="mr-5 hover:text-blue-900">Kontak</a>
-          <a href="./about.html" class="mr-5 hover:text-blue-900">About</a>
-          
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <header class="bg-sky-800 text-white">
+      <div class="container mx-auto px-4">
+        <nav class="flex flex-wrap items-center justify-between py-4">
+          <div class="block lg:hidden">
+            <button
+              class="flex items-center px-3 py-2 border rounded text-white border-white hover:text-blue-300 hover:border-blue-300"
+            >
+              <svg
+                class="fill-current h-3 w-3"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Menu</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+              </svg>
+            </button>
+          </div>
+          <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+            <div class="text-sm lg:flex-grow">
+              <a
+                href="./dashboard.html"
+                class="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-300 mr-4"
+                >Home</a
+              >
+              <a
+                href="./kontak.html"
+                class="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-300 mr-4"
+                >Kontak</a
+              >
+              <a
+                href="./about.html"
+                class="block mt-4 lg:inline-block lg:mt-0 hover:text-blue-300"
+                >About</a
+              >
+            </div>
+          </div>
         </nav>
       </div>
     </header>
 
-    <div class="flex flex-col h-screen items-center justify-center">
-    <p class="font-bold text-5xl mx-2 mb-4"><u>About us:</u></h1>
-    <p class="mx-2">
-        Ini adalah webpage yang dibuat pada pertemuan 1 mata kuliah pemrograman web UPJ.
-    </p>
-    </div>
-</body>
+    <main class="flex-grow py-8">
+      <div class="container mx-auto px-4">
+        <div class="text-black text-center py-4 mb-4">
+          <h1 class="text-7xl font-bold">About Us</h1>
+        </div>
+        <div class="p-6 rounded-lg shadow-md">
+          <p class="text-base md:text-lg mb-4">
+            Lorem ipsum odor amet, consectetuer adipiscing elit. Condimentum ex
+            class suscipit neque nibh vel et fermentum rhoncus. Hac tempus magna
+            habitasse etiam a cubilia diam nam. Imperdiet habitasse maecenas nam
+            donec auctor urna laoreet etiam volutpat. Semper maximus praesent
+            duis luctus penatibus sagittis varius nascetur. Integer nisl dolor
+            suscipit, metus nam lobortis taciti venenatis. Amet amet natoque
+            sociosqu maecenas ornare a facilisi.
+          </p>
+          <p class="text-base md:text-lg">
+            Ultricies at malesuada mattis elementum morbi malesuada maximus
+            lectus suspendisse. Eget pellentesque consectetur tempor morbi dis
+            accumsan vel. Magnis magnis nunc condimentum id tristique
+            sollicitudin condimentum. Ornare fermentum leo quam cras efficitur;
+            mattis lorem bibendum. Accumsan turpis nibh rhoncus dis vel nisl.
+            Tempus convallis elit aliquet praesent primis fusce potenti.
+            Sociosqu ridiculus penatibus aliquet facilisi porttitor pellentesque
+            primis conubia et. Habitasse facilisi lacus lectus commodo aliquet;
+            finibus non mus? Neque morbi potenti phasellus torquent habitant
+            orci maximus sapien consectetur.
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
